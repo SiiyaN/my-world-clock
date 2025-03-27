@@ -4,7 +4,7 @@
   background-color: rgb(201, 206, 212);
   padding: 35px;
   box-shadow: 15px black;
-  border-radius: 10px;
+  border-radius: 7px;
 }
 
 select {
@@ -16,6 +16,7 @@ select {
 
 body {
   background-color: rgb(134, 147, 189);
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1 {
@@ -40,9 +41,14 @@ h1 {
 .time {
   margin-top: 25px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
+}
+.time small {
+  font-size: 15px;
+  vertical-align: middle;
 }
 
 footer {
   text-align: center;
+  font-size: 12px;
 }
