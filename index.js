@@ -30,7 +30,9 @@ function updateTime() {
 
 function updateCity(event) {
   let cityTimezone = event.target.value;
-  if (!cityTimezone) return;
+  if (cityTimezone === "myLocation") {
+    cityTimezone = moment.tz.guess();
+  }
 
   let cityTime = moment().tz(cityTimezone);
   let citiesElement = document.querySelector("#cities");
