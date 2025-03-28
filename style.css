@@ -1,11 +1,9 @@
 .container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 50px auto;
-
+  background: rgb(248, 195, 241, 0.5);
   padding: 35px;
-  box-shadow: 15px black;
   border-radius: 7px;
-  background-image: url("");
 }
 
 select {
@@ -16,7 +14,10 @@ select {
 }
 
 body {
-  background-color: rgb(206, 214, 241);
+  background-image: url("media/globe.jpeg");
+  background-size: 150%;
+  background-position: center center;
+  background-repeat: no-repeat;
   font-family: "Courier New", Courier, monospace;
 }
 
